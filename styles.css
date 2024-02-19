@@ -1,105 +1,44 @@
-/* Set colors for the page */
-body{
-    background-color: ivory;
-    color: rgb(red, green, blue); /* this is the font color*/
-}
+/* ---------------------- layout ------------------------- */
 
-/* create styles for the h1 tag */
-
-/* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line
-
-h1{
-    color: teal;
-    font-family: serif;
-    font-size: larger;
-    text-align: center;
-}
-*/
-h1{
-    color: green;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    text-align: center;
-}
-
-/* create styles for the h2 tag */
-
-
-/* create styles for the h3 tag */
-
-
-/* create styles for the p tag */
-
-img{
-    width: 30%;
-    display: block;
-    margin: 10px auto; 
-    /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
-}
-/* Global styling for the body element */
 body {
-    /* Add styles here to affect the entire page */
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: ivory;
+    color: black;
 }
 
-/* Styling for the div and header elements, affecting the width, margin, border, and background color */
-div,
-header {
-    width: 80%;
-    /* Sets the width to 80% of the parent container */
+.container {
+    width: 90%;
+    max-width: 1400px;
+    min-width: 500px;
     margin: 20px auto;
-    /* Centers the element horizontally and adds 20px margin to the top and bottom */
-    border: 3px solid gold;
-    /* Sets a 3px solid gold border */
-    background: rgba(0, 0, 0, .7);
-    /* Sets a semi-transparent black background */
+    overflow: auto;
 }
 
-/* Specific styling for all div elements, setting a minimum height */
-div {
-    min-height: 250px;
-    /* Ensures the div is at least 250px tall */
-}
-
-/* Styling for h1 and h2 headings, controlling the text alignment and color */
-h1,
-h2 {
+footer {
     text-align: center;
-    /* Centers the text horizontally */
-    color: gold;
-    /* Sets the text color to gold */
+    padding: 20px;
 }
 
-/* Placeholder for the background styling, add your specific styles here */
-#background {
-    /* Add background-specific styles here */
+header {
+    min-height: 80px;
+    text-align: center;
 }
 
-/* Placeholder for the image map styling, add your specific styles here */
-#img-map {
-    /* Add image map-specific styles here */
+h2 {
+    color: navy;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
 }
 
-/* Placeholder for floating left, add your specific styles here */
-#float-left {
-    /* Add floating left-specific styles here */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: navy;
 }
 
-/* Placeholder for floating right, add your specific styles here */
-#float-right {
-    /* Add floating right-specific styles here */
-}
-
-/* Placeholder for picture tag, add your specific styles here */
-#picture-tag {
-    /* Add picture tag-specific styles here */
-}
-
-/* Placeholder for linked image, add your specific styles here */
-#linked-image {
-    /* Add linked image-specific styles here */
-}
-
-/* Placeholder for image as a link, add your specific styles here */
-#img-as-link {
-    /* Add image as link-specific styles here */
+img {
+    width: 500px;
 }
