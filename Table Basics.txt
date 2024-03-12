@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tables</title>
+    <style>
+        table,
+                th,
+                td {
+                    border: 1px solid black;
+                }
+
+                table {
+                    margin: 20px auto;
+                }
+    <style>
+        table {
+            width: 80%;
+            margin: 20px;
+            border: 3px solid darkgreen
+            border-collapse: collapse;
+        }
+        <p>&nbsp</p>
+        <h2>calendar</h2>
+        <h3>March 2024</h3>
